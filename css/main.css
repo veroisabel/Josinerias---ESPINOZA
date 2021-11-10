@@ -1,0 +1,214 @@
+
+body{
+    background-color: whitesmoke;
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*Navegador*/
+
+.navegador {
+    background-color: rgba(255, 192, 203, 0.13);
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+}
+
+.logo {
+    padding: 15px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav li {
+    list-style-type:none;
+}
+
+.nav li a {
+    color: rgb(73, 11, 73) ;
+    text-decoration: none;   
+    font-weight:bold;
+}
+
+/* Marca-Slogan*/
+
+.bloque-principal{
+    background-image: url(../Images/cupcakes-filtro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 5px;
+    padding: 60px;
+        
+}
+#imagen-desayunos{
+height: 400x;
+width: 400px;
+
+
+}
+h1{
+    color:hsl(350, 83%, 77%);
+    font-family: 'sacramento',cursive;
+    font-size: 90px;
+    text-align: center;
+}
+
+h1 {
+    animation-duration: 4s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+ }
+ 
+ 
+ @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+ 
+
+#slogan {
+    color: black;
+    padding: 20px;    
+    
+}
+
+#slogan {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+/*Home about*/
+
+.home-about {
+    /*background-color: rgb(247, 244, 244);*/
+    background-image: linear-gradient(to right, whitesmoke , pink);
+    height: 200px;
+    border: solid pink;
+    padding: 30px;
+    margin: 30px;
+}
+
+.textos {
+    text-align: center;
+}
+
+/*Info-list*/
+
+.subtitulos {
+    color: rgb(53, 35, 71);
+    text-align: center;
+    font-size: 35px;
+}
+
+.titulos{
+    font-family: 'sacramento', cursive;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+.info-list {
+    background-color: rgb(245, 235, 236);
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.info-list .info-desayunos{
+    display: flex;
+    flex-direction: row;
+
+}
+.info-list .info-desayunos .img-desayuno img {
+    width: 450px;
+    height: 450px;
+    border-radius: 45px;
+    box-shadow: 1px 1px 2px;
+}
+
+.info-list .info-tortas {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.info-list .info-tortas .texto-tortas {
+    text-align: left;
+}
+.info-list .info-tortas .img-torta img {
+    width: 450px;
+    height: 450px;
+    border-radius: 45px;
+    box-shadow: 1px 1px 2px;
+
+}
+
+/*Article-horarios*/
+
+.info-horarios {
+    text-align: center;
+    font-weight: bold;
+}
+
+.redes-sociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    transition: all;
+    margin: 30px 130px;
+}
+
+.icono-transition img{
+    transition: all 1s ease-in-out;
+    
+}
+.icono-transition img:hover {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+/*Footer*/
+
+.footer {
+    background-color: pink;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer .footer-redes ul li {
+    list-style-type: none;
+}
+
+.footer .footer-resumen {
+    text-align: left;
+}
+
+.footer .footer-resumen .text-resumen {
+    padding-left: 20px;
+}
+
+/*====*/
+/*Media-Queris
